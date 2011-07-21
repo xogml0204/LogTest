@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/optionxml"
+   android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:gravity="center"
+>
+ <CheckBox
+  android:id="@+id/filter_use"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:text="필터 사용"
+  android:textSize="16px"
+  android:gravity="center"
+  android:layout_marginTop="20px"
+  android:layout_marginBottom="3px"
+  android:textColor="#000000"
+  android:tag="0"
+  />
+   <EditText
+  android:id="@+id/filter_set"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:text=""
+  android:textSize="16px"
+  android:gravity="center"
+  android:layout_margin="3px"
+  android:textColor="#000000"
+  />
+ <CheckBox
+  android:id="@+id/file_save_set"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:paddingLeft="18px"
+  android:text="파일 저장 여부"
+  android:textSize="16px"
+  android:gravity="center"
+  android:layout_margin="3px"
+  android:textColor="#000000"
+  android:tag="1"
+  />
+ <EditText
+  android:id="@+id/file_name"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:text="CurrentTime"
+  android:textSize="16px"
+  android:gravity="center"
+  android:layout_margin="3px"
+  android:textColor="#000000"
+  />
+ <CheckBox
+  android:id="@+id/color_set"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:text="색깔 설정"
+  android:textSize="16px"
+  android:gravity="center"
+  android:layout_margin="3px"
+  android:textColor="#000000"
+  android:tag="2"
+  />
+ <CheckBox
+  android:id="@+id/toast_use"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:text="토스트 사용여부"
+  android:textSize="16px"
+  android:gravity="center"
+  android:layout_margin="3px"
+  android:textColor="#000000"
+  android:tag="3"
+  />
+  
+  <LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="#ffffff"
+     android:gravity="center"
+     >
+     <Button
+  android:id="@+id/option_ok"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  
+  android:paddingRight="32px"
+  android:paddingLeft="32px"
+  android:text="설정"
+  android:textSize="20px"
+  android:gravity="center"
+  android:layout_margin="17px"
+  /><Button
+  android:id="@+id/option_cancel"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  
+  android:paddingRight="32px"
+  android:paddingLeft="32px"
+  android:text="취소"
+  android:textSize="20px"
+  android:gravity="center"
+  android:layout_margin="17px"
+  />
+     </LinearLayout>
+
+</LinearLayout> 

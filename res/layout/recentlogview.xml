@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:background="#ffffff" 
+    >  
+        
+  <LinearLayout   
+     android:orientation="horizontal"  
+      android:layout_width="fill_parent"  
+      android:layout_height="wrap_content" 
+     > 
+     <!-- 종료 --> 
+   <Button android:id="@+id/r_log_close" android:text="Close"  
+    android:layout_height="wrap_content"  
+    android:layout_width="fill_parent"></Button>   
+  </LinearLayout> 
+   
+ <ScrollView   
+  android:id="@+id/r_log_scr"  
+     android:orientation="vertical"  
+     android:layout_width="fill_parent"  
+     android:layout_height="wrap_content"    
+     >  
+      
+   <LinearLayout   
+       android:orientation="vertical"  
+       android:layout_width="fill_parent"  
+       android:layout_height="fill_parent"  
+      >  
+   <!-- 상태표시 -->  
+     <TextView android:id="@+id/r_log_view"  
+      android:editable="true"  
+      android:layout_height="fill_parent"  
+      android:layout_width="fill_parent"></TextView> 
+   </LinearLayout>  
+    
+  </ScrollView>  
+</LinearLayout> 

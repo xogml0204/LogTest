@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+      
+  <LinearLayout 
+     android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+     >
+     <!-- 시작 -->
+   <Button android:id="@+id/start_button" android:text="Start"
+    android:layout_weight="1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+     <!-- 종료 -->
+   <Button android:id="@+id/stop_button" android:text="Stop"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"></Button> 
+  </LinearLayout>
+  
+   <LinearLayout 
+     android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+     >
+     <!--view-->
+   <Button
+   android:id="@+id/view_button" android:text="View"
+   android:layout_weight="1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:onClick="onView" />
+     <!--main-->
+   <Button
+    android:id="@+id/main_button" android:text="Main"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"></Button> 
+  </LinearLayout>
+ 
+
+ <ScrollView 
+  android:id="@+id/scr"
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"  
+     >
+     
+   <LinearLayout 
+       android:orientation="vertical"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+      >
+   <!-- 상태표시 -->
+     <TextView android:id="@+id/text_view_id"
+      android:editable="true"
+      android:layout_height="fill_parent"
+      android:layout_width="fill_parent"></TextView>
+   </LinearLayout>
+   
+  </ScrollView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+      package="kr.ac.kookmin" 
+      android:versionCode="1" 
+      android:versionName="1.0"> 
+    <uses-sdk android:minSdkVersion="8" /> 
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name"> 
+        <activity android:name=".LogTestActivity" 
+                  android:label="@string/app_name"> 
+            <intent-filter> 
+                <action android:name="android.intent.action.MAIN" /> 
+                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+        </activity>
+        <activity android:name="LogViewActivity" 
+                  android:label="@string/app_name" />
+        <activity android:name="FileListActivity" 
+                  android:label="@string/app_name" />
+        <activity android:name="LogStartActivity" 
+                  android:label="@string/app_name" />
+        <activity android:name="LogOptionActivity" 
+                  android:label="@string/app_name" />
+        <activity android:name="LogRecentViewActivity" 
+                  android:label="@string/app_name" />
+        
+        
+
+ 		<service android:name="kr.ac.kookmin.MyService" /> 
+    </application> 
+     
+    <uses-permission android:name="android.permission.READ_LOGS"></uses-permission> 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission> 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    
+
+    
+    
+</manifest>

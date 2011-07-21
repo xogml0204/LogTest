@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    >
+      
+    <TextView
+     android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textSize="25px"
+  android:textStyle="bold"
+  android:layout_margin="16px"
+  android:text="Log Cat"
+  />
+ <Button
+  android:id="@+id/startbtn"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:paddingRight="52px"
+  android:paddingLeft="52px"
+  android:text="시작하기"
+  android:textSize="18px"
+  android:gravity="center"
+  android:layout_marginTop="4px"
+  android:layout_marginBottom="4px"
+  />
+  
+<Button
+  android:id="@+id/pausebtn"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:paddingRight="52px"
+  android:paddingLeft="52px"
+  android:text="중지하기"
+  android:textSize="18px"
+  android:gravity="center"
+  android:layout_marginTop="4px"
+  android:layout_marginBottom="4px"
+  />
+  <Button
+   android:id="@+id/optionbtn"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:paddingRight="52px"
+  android:paddingLeft="52px"
+  android:text="옵션"
+  android:textSize="18px"
+  android:gravity="center"
+  android:layout_marginTop="4px"
+  android:layout_marginBottom="4px"
+  />
+ <Button
+  android:id="@+id/recentlogbtn"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:paddingRight="52px"
+  android:paddingLeft="52px"
+  android:text="최근 로그 보기"
+  android:textSize="18px"
+  android:gravity="center"
+  android:layout_marginTop="4px"
+  android:layout_marginBottom="4px"
+  />
+ <Button
+  android:id="@+id/savelogbtn"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:paddingRight="52px"
+  android:paddingLeft="52px"
+  android:text="저장된 로그 보기"
+  android:textSize="18px"
+  android:gravity="center"
+  android:layout_marginTop="4px"
+  android:layout_marginBottom="4px"
+  android:onClick="onClickLoad"
+  />
+ <Button
+  android:id="@+id/exitbtn"
+  android:layout_width="245px"
+  android:layout_height="wrap_content"
+  android:paddingRight="52px"
+  android:paddingLeft="52px"
+  android:text="종료하기"
+  android:textSize="18px"
+  android:gravity="center"
+  android:layout_marginTop="4px"
+  android:layout_marginBottom="4px"
+  />
+</LinearLayout>
